@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/*
+   *Author：陈冬恩 <=======>  I_Am_Mr_H
+   */
+html , body , h1 , h2 , h3 , h4 , h5 , h6 ,ul ,li ,ol , p ,div ,form ,fieldset , legend , input ,textarea , table , tr , th ,td , dl , dt , dd , select  {margin:0;padding:0;}
+body {font:1.25em/1.5em  Arial, "Microsoft YaHei","Tahoma","Comic Sans MS",sans-serif;text-align:center;-webkit-text-size-adjust:none;-webkit-font-smoothing:antialiased;color: #3C3C3C;}
+html{_overflow:hidden;}
+body{_height:100%;_overflow:auto;}
+h1 , h2 , h3 , h4 , h5 , h6 {font-weight:normal;}
+h1 {font-size:2em;}
+h2 {font-size:1.5em;}
+h3,h4,h5,h6 {font-size:1em;}
+footer,header,nav,section,article,aside,details,figcaption,figure,hgroup,menu,{display:block;}
+audio,canvas,video {display: inline-block;*display: inline;*zoom: 1;}
+table {border-collapse:collapse;border-spacing:0;}
+button,input,select,textarea{font:.875em/1.5em "Microsoft YaHei" ,Arial;}
+a , a:hover {text-decoration:none;transition:all .2s linear;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;}
+a , input , textarea {outline:none; color:#333;}
+input  ,textarea {vertical-align:middle;}
+input[type='text'] , input[type='password'] , select {border:1px solid #c0c0c0;}
+input[type='checkbox'] , input[type='radio'] {margin:0 2px 0 0;border:none;}
+textarea {overflow:auto;resize:none;border:1px solid #c0c0c0;}
+img, object ,audio, video {border:none; vertical-align:middle;text-align:center;max-width:100%;}
+ul , li , ol {list-style:none;}
+.clear {*zoom:1;}
+.clear:after {content:'';display:block;clear:both;}
