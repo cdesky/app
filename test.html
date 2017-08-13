@@ -1,0 +1,68 @@
+<!DOCTYPE html  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+  <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta name="format-detection" content="telphone=no"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <script src="js/zp.js"></script>
+    <style>
+        .product { }
+        .product dl {padding:0 0 0 3%;}
+        .product dd {float:left;width: 30.333%;margin:1.5% 1%;}
+        .product .wrap {padding:5px;border: 1px solid #c0c0c0; transition:all .2s linear;}
+        .product .wrap:hover {box-shadow:0 4px 5px #eee;border: 1px solid #FFA86E;}
+        .product .prBox {}
+        .prBox img {min-width:100%;}
+        .product .prName {text-align:left;width: 100%;overflow: hidden;text-overflow: ellipsis;white-space:nowrap;font-size:.675em;}
+        .product .prInfo { }
+        .price , .fkNum {font-size:.575em;color: #A5A5A5;line-height: 25px;}
+        .prInfo .price {float: left;font-size: .9em;color: #EC4200;font-family: 'tahoma';}
+        .prInfo .fkNum {float:right;}
+        .shopInfo {font-size:.689em;text-align: left;height:25px;line-height:25px; margin: 4px 0;position: relative;z-index: 10;color: #A5A5A5;}
+        .shopInfo .name {width: 75%;float: left;text-decoration:underline;color: #A5A5A5;}
+        .shopInfo .address {float: right;}
+        .product .proFt {font-size:.456em;}
+        .proFt .sp {float: left;color:#fff;height:16px;line-height:17px;padding: 1px 2px;overflow: hidden;}
+        .proFt .tt {background: red;}
+        .proFt .nz {background: #FFBC37;color:#A32929;}
+        .popTips {width: 110%;position: absolute;top: 28px;left: -3px;padding: 5px;border: 2px solid #E25A00;background: #FFF;box-shadow: 0 2px 4px #A5A5A5;border-radius:2px;display:none;}
+        .arrow {display: inline-block;border: 10px solid rgba(0, 0, 0, 0);border-top: none;border-bottom:10px solid #E25A00;position: absolute;top: -10px;}
+        .popShop {font-size:.567em;border-top:1px dashed #c0c0c0;border-bottom:1px dashed #c0c0c0;padding:6px 0;}
+        .haop {font-size:.5em;}
+        .morethan {display: inline-block;}
+        .popShop em {font-style:normal;padding:0 2px;height:18px;line-height:20px;margin: 0 6px 0 2px;display:inline-block;}
+        .popShop .high  {color:#C20000;}
+        .popShop .high em {background:#C20000;color:#fff;}
+        .popShop .low {color:green;}
+        .popShop .low em {background:green;color:#fff;}
+        .proDes {font-size:.567em;}
+
+    </style>
+</head>
+<body>
+<div class="product ">
+    <dl class="clear">
+        <script>
+            for(var i=0;i<=6;i++)
+            {
+                document.write('<dd><div class="wrap clear"><div class="prBox"><img src="images/1.jpg"/></div><div class="prInfo clear"><p class="prName">商品信息标题文字测试商品信息标题文字测试</p><span class="price">￥300.00</span><span class="fkNum">558人付款</span></div><div class="shopInfo clear"><a href="javascript:;" class="name">nike官方旗舰店 </a><span class="address">上海</span><div class="popTips"><h3 class="haop">好评率：96.3%</h3><span class="arrow"></span><ul class="popShop"><li class="high"><div class="morethan">描述相符：</div><em>高于</em>12.32%</li><li class="low"><div class="morethan">服务态度：</div><em>小于</em>0.32%</li><li class="high"><div class="morethan">发货速度：</div><em>持平</em>0.32%</li></ul><div class="proDes">商品暂无描述</div></div> </div><div class="proFt"><span class="sp tt">天猫</span><span class="sp nz">年中大促</span></div></div></dd>');
+            }
+        </script>
+    </dl>
+</div>
+<script>
+    $('.shopInfo').mouseenter(function ()
+    {
+      $(this).find('.popTips').show();
+    }).mouseleave(function ()
+    {
+        $(this).find('.popTips').hide();
+    });
+</script>
+</body>
+</html>

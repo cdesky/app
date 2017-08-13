@@ -1,0 +1,93 @@
+<!DOCTYPE html  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+  <title>聚划算</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta name="format-detection" content="telphone=no"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="css/webico.css"/>
+    <script src="js/zp.js"></script>
+    <script src="js/zTouch.js"></script>
+    <script src="js/cde.js"></script>
+</head>
+<body>
+    <header class="hd">
+        <div class="hdLink">
+            <div class="logo"><a href="index.html"></a></div>
+            <div class="nav">
+                <a href="#/today" class="current">今日</a>
+                <a href="#/brand">品牌</a>
+                <a href="#/life">生活</a>
+            </div>
+            <div class="searchBtn"><i class="icon-search-1"></i></div>
+        </div>
+        <div class="searchBox">
+            <form action="" class="fm">
+                <input type="text" class="shtxt" name="txt" autocomplete='off'/>
+                <input type="submit"  class="search" value=""/>
+                <input type="reset" class="reset" value="取消"/>
+            </form>
+        </div>
+    </header>
+    <div class="profl">
+         <span class="fenlei"><i class="icon-th"></i>分类</span>
+         <span class="viewMode">显示方式：<i class="icon-th-large block"></i><i class="icon-th-list list"></i></span>
+     </div>
+    <section class="indexCon">
+        <section class="con clear" id="j_today" style="display:block;">
+            <ul class="blockMode clear">
+                <script>
+                    for(var i=1;i<=12;i++)
+                    {
+                        document.write('<li><div class="pd"><div class="p"><a href="product.html"><img src="images/'+i+'.jpg"/><div class="tipsPr"><h2 class="pro_title def">品质优良品质优良品质优良，做工细致，值得依赖</h2><span class="pPrice def ht">￥199.00</span><span class="price">金币抵2%</span><span class="save">立省0.7元</span><div class="ftime def"><span class="pnum">2036人已购买</span><span class="time">马上开始</span></div></div></a></div></div></li>');
+                    }
+                </script>
+            </ul>
+        </section>
+
+        <section class="con clear" id="j_brand">
+            <ul class="blockMode clear">
+                <script>
+                    for(var i=13;i<=21;i++)
+                    {
+                        document.write('<li><div class="pd"><div class="p"><a href="items.html"><img src="images/'+i+'.jpg"/><div class="tipsPr"><h2 class="pro_title def">2014新款纽巴伦New Balance/新百货公司，男子跑步鞋，运动随我</h2><span class="pPrice def ht">￥699.00</span><span class="price">80折</span><span class="save">立省140元</span><div class="ftime def"><span class="pnum">12036人已购买</span><span class="time">马上开始</span></div></div></a></div></div></li>');
+                    }
+                </script>
+            </ul>
+        </section>
+
+        <section class="con clear" id="j_life">
+            今日生活
+        </section>
+    </section>
+    <footer class="ft">
+        <a href='javascript:;' class="login">登录</a>
+        <b class="line">|</b>
+        <a href='javascript:;' class="reg">注册</a>
+        <a href='javascript:scroll(0,0)' class="top icon-up-open">返回顶部</a>
+        <p class="copy">CopyRight 2014-04-25&copy</p>
+    </footer>
+
+<div class="sidebar">
+    <h3 class="sdTitle"><i class="icon-left-open hide"></i>类目浏览</h3>
+    <dl class="brandItmes">
+        <dd>
+            <a href="javascript:;">在售品牌</a>
+            </dd>
+        <dd>
+            <a href="javascript:;">流行服饰</a></dd>
+            <dd><a href="javascript:;">运动鞋包</a></dd>
+            <dd><a href="javascript:;">美容饰品</a></dd>
+            <dd><a href="javascript:;">母婴百货</a></dd>
+            <dd><a href="javascript:;">家装家居百货</a></dd>
+            <dd><a href="javascript:;">全部预告</a>
+        </dd>
+    </dl>
+ </div>
+ </body>
+</html>

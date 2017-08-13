@@ -1,0 +1,117 @@
+<!DOCTYPE html  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+  <title>聚划算</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta name="format-detection" content="telphone=no"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="css/webico.css"/>
+    <script src="js/zp.js"></script>
+    <script src='js/swipe.js'></script>
+</head>
+<body>
+
+<header>
+    <div class='url'>
+        <a href="javascript:history.back();" class="back"><i class="icon-reply"></i>返回</a>
+        <a href="javascript:location.reload();" class="refresh"><i class="icon-cw"></i>刷新</a>
+    </div>
+</header>
+<div id='mySwipe' class='swipe'>
+  <div class='swipe-wrap'>
+    <div><img alt='' src="images/b1.jpg"/></div>
+    <div><img alt='' src="images/b2.jpg"/></div>
+    <div><img alt='' src="images/b3.jpg"/></div>
+    <div><img alt='' src="images/b4.jpg"/></div>
+    <div><img alt='' src="images/b2.jpg"/></div>
+    <div><img alt='' src="images/b4.jpg"/></div>
+    <div><img alt='' src="images/b3.jpg"/></div>
+  </div>
+</div>
+
+<dl class="goodsList">
+            <dd>
+                <a href="proInner.html" class="details">
+                    <div class="wrap">
+                        <div class='lf'>
+                            <div class="gt" style="background-image: url(images/kl.jpg);"></div>
+                            <i class="pr">7<b style="font-size:.5em;">折起</b></i>
+                        </div>
+                        <div class='rf'>
+                            <div class="pic" style="background-image: url(images/ke.jpg);"></div>
+                            <div class="tt"><span class="word">康恩贝-为人类健康、献至诚至爱</span></div>
+                        </div>
+                    </div>
+                </a>
+            </dd>
+            <dd>
+                <a href="proInner.html" class="details">
+                    <div class="wrap">
+                        <div class='lf'>
+                            <div class="gt" style="background-image: url(images/gl.jpg);"></div>
+                            <i class="pr">5.8<b style="font-size:.5em;">折起</b></i>
+                        </div>
+                        <div class='rf'>
+                            <div class="pic" style="background-image: url(images/pd.jpg);"></div>
+                            <div class="tt"><span class="word">PTR是使用温泉热汤与矿物来舒缓肌肤不适</span></div>
+                        </div>
+                    </div>
+                </a>
+            </dd>
+            <dd>
+                <a href="proInner.html" class="details">
+                    <div class="wrap">
+                        <div class='lf'>
+                            <div class="gt" style="background-image: url(images/gs.jpg);"></div>
+                            <i class="pr">7.2<b style="font-size:.5em;">折起</b></i>
+                        </div>
+                        <div class='rf'>
+                            <div class="pic" style="background-image: url(images/ps.jpg);"></div>
+                            <div class="tt"><span class="word">PTR是使用温泉热汤与矿物来舒缓肌肤不适</span></div>
+                        </div>
+                    </div>
+                </a>
+            </dd>
+            <dd>
+                <a href="proInner.html" class="details">
+                    <div class="wrap">
+                        <div class='lf'>
+                            <div class="gt" style="background-image: url(images/gl.jpg);"></div>
+                            <i class="pr">6.2<b style="font-size:.5em;">折起</b></i>
+                        </div>
+                        <div class='rf'>
+                            <div class="pic" style="background-image: url(images/pf.jpg);"></div>
+                            <div class="tt"><span class="word">婴儿成长必需，妈咪必备</span></div>
+                        </div>
+                    </div>
+                </a>
+            </dd>
+        </dl>
+
+ <footer class="ft">
+        <a href='javascript:;' class="login">登录</a>
+        <b class="line">|</b>
+        <a href='javascript:;' class="reg">注册</a>
+        <a href='javascript:scroll(0,0)' class="top icon-up-open">返回顶部</a>
+        <p class="copy">CopyRight 2014-04-25&copy</p>
+    </footer>
+<script>
+
+ window.mySwipe = $('#mySwipe').Swipe({
+     startSlide: 1,
+     auto: 3000,
+     continuous: true,
+     disableScroll: true,
+     stopPropagation: false
+     // callback: function(index, element) {},
+     // transitionEnd: function(index, element) {}
+ });
+
+</script>
+</body>
+</html>
